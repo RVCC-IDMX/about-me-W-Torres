@@ -1,7 +1,28 @@
 body {
 
-background-color: "#36D40B";
-font-family: 'Fira Sans', sans-serif;
+    background-color: "#36D40B";
+    font-family: 'Fira Sans', sans-serif;
 
+}
+
+h2 {
+
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 40px;
+
+}
+
+#hero footer {
+
+text-align: center;
+background-color: black;
+padding: 20px;
+border:4px solid #1BD4F5;
+
+}
+
+header {
+
+    text-align: center;
 
 }
