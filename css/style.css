@@ -20,6 +20,7 @@ h2 {
     color: #B1DEFA;
 }
 
+/* Image of cartoon student */
 #EnthusiaticStudent {
 
 text-align: center;
@@ -32,4 +33,11 @@ header {
 
     text-align: center;
 
+}
+
+
+
+footer {
+
+    color: white
 }
