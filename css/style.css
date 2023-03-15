@@ -21,18 +21,23 @@ h2 {
 }
 
 /* Image of cartoon student */
-#EnthusiaticStudent {
+#enthusiaticstudent {
 
-text-align: center;
 padding: 20px;
 border:4px solid #0AA8F5;
-max-width: fit-content;
+max-width: 50%;
+
+}
+
+#biography div {
+
+text-align: center;
 
 }
 
 header {
 
-    text-align: center;
+text-align: center;
 
 }
 
@@ -40,8 +45,33 @@ header {
 #photos {
 
 border: #ffffff;
-text-align: center;
+max-width: 100%;
+max-height: 50px;
 
+}
+/*Likes and Hobbies*/
+#hobbies {
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+#genres {
+
+display: flex;
+flex-direction: column;
+align-items: center;
+    
+}
+
+#sports {
+
+display: flex;
+flex-direction: column;
+align-items: center;
+        
 }
 
 #photos figcaption {
@@ -51,7 +81,7 @@ text-align: center;
 }
 
 /*Article*/
-#lit {
+#lit div {
 
 border: #ffffff;
 font-size: medium;
@@ -62,11 +92,49 @@ text-align: center;
 
 #lit div {
 
-    margin-bottom: 0% auto;
+    margin: 3rem
+
 }
 
 footer {
 
     color: white
+
+}
+
+@media screen and (min-width: 760px) {
+
+#photos figure {
+
+display: grid;
+grid-template-columns: 2fr 1fr;
+}
+
+#photos figcaption {
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+#lit div {
+
+max-width: 100%;
+columns: 30rem;
+text-align: justify;
+
+}
+
+}
+
+@media screen and (min-width: 1200px) {
+
+#photos {
+
+display: grid;
+
+}
+
 
 }
