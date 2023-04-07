@@ -1,0 +1,85 @@
+/* make scrolling smooth */
+html {
+    scroll-behavior: smooth;
+}
+
+/* 
+ get rid of padding & sizing on body so
+ header is at top
+*/
+main {
+    padding: 2vw;
+}
+
+/* add some padding back to rest of page */
+
+
+/* navbar */
+
+.navbar {
+    border: solid white;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+/* logo */
+
+.log img {
+    display: flex;
+    align-content: center;
+}
+
+/* navigation list */
+
+.navbar-links li {
+
+    list-style: none;
+    padding: 1rem 5px;
+
+}
+
+/*  
+ style all a tags in header 
+ and then on hover
+*/
+
+
+.navbar-links a {
+
+    color: whitesmoke;
+    font-size: 1.5rem;
+    padding: 1rem 1.25rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+
+}
+
+.navbar-links a:hover {
+
+background-color: aqua;
+
+}
+
+/* 
+media query for non-mobile nav bar
+min-width set to width of nav elements 
+such that no text wraps 
+*/
+
+@media screen and (min-width:1000px) {
+
+.navbar {
+
+flex-direction: row;
+
+}
+
+.navbar ul {
+
+display: flex;
+
+}
+
+}

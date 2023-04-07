@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;700&display=swap" rel="stylesheet">
 
     <link href="css/style.css" rel="stylesheet">
-
+    <link href="css/nav.css" rel="stylesheet">
 </head>
 
 <body>
@@ -23,8 +23,22 @@
     <header>
         <!-- the HEADER represents a piece of content that helps a visitor
             navigate the webpage through navigational aids -->
+        <!--<nav class="navbar">-->
+        <nav class="navbar">
+            <div class="logo">
+                <img src="/img/logo-96X96.svg" alt="Origami Bird" class="log img">
+                <h1 class="logo-title">Web Dev 1 - About Me</h1>
+            </div>
 
-        <img src="/img/logo-96X96.svg" alt="Origami Bird">
+            <div class="navbar-links">
+                <ul>
+                    <li><a class="nav-links" href="#contact"></a>Contact Me</li>
+                    <li><a class="nav-links" href="#hobbies"></a>Hobbies</li>
+                    <li><a class="nav-links" href="#photos"></a>Photo Gallery</li>
+                    <li><a class="nav-links" href="#video"></a>Linked Video</li>
+                </ul>
+            </div>
+        </nav>
 
     </header>
 
@@ -33,13 +47,13 @@
         <!-- The MAIN tag describes the central content of 
         an online document or webpage -->
 
-        <section id = "biography">
+        <section id="biography">
             <!-- The SECTION tag helps group together a collection of code that 
     would be displayed on an online document or webpage -->
 
-            <h1>Web Dev 1 - About Me</h1>
+            <!--<h1>Web Dev 1 - About Me</h1>-->
 
-            <img src="/img/avataaars.png" alt="Enthusiatic Student" id = "enthusiaticstudent">
+            <img src="/img/avataaars.png" alt="Enthusiatic Student" id="enthusiaticstudent">
 
             <div>
 
@@ -70,7 +84,7 @@
 
         </section>
 
-        <section id = "genres">
+        <section id="genres">
 
             <h2> Types of video game genres I enjoy: </h2>
 
@@ -84,7 +98,7 @@
 
         </section>
 
-        <section id ="sports">
+        <section id="sports">
 
             <h2> Sports I like to play in my free time:</h2>
 
@@ -96,18 +110,18 @@
 
         </section>
 
-            <h2> Photo Gallery </h2>
-            <section id="Photos">
-            <hr>
-            <figure id ="Comic con">
+        <h2> Photo Gallery </h2>
+        <section id="photos">
+
+            <figure id="Comic con">
                 <img src="img/comic-con-640w.jpg" alt="Comic Con">
                 <figcaption> Photo taken during Comic Con 2022 </figcaption>
             </figure>
-            <figure id = "sketch">
+            <figure id="sketch">
                 <img src="img/artwork-640w.jpg" alt="Marvel Sketch">
                 <figcaption> My father during sketch commission </figcaption>
             </figure>
-            <figure id = "ps4">
+            <figure id="ps4">
                 <img src="img/ps4-640w.jpg" alt="PS4">
                 <figcaption> Me achieving platinum trophy for a game </figcaption>
             </figure>
@@ -116,130 +130,143 @@
 
         <section id="video">
 
-            <iframe 
-            width="650" 
-            height="410" 
-            src="https://www.youtube.com/embed/XL5Cn8YrEkk" 
-            title="YouTube video player" 
-            frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            allowfullscreen>
-        </iframe>
+            <iframe width="650" height="410" src="https://www.youtube.com/embed/XL5Cn8YrEkk"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+            </iframe>
 
         </section>
 
         <h2> The Picture of Dorian Gray </h2>
 
         <article id="lit">
-            
-        <div>
-            <p>"I want you and Basil to come with me some night and see her act. I have not the slightest fear of the
-                result. You are certain to acknowledge her genius. Then we must get her out of the Jew's hands. She is
-                bound to him for three years--at least for two years and eight months--from the present time. I shall
-                have to pay him something, of course. When all that is settled, I shall take a West End theatre and
-                bring her out properly. She will make the world as mad as she has made me."</p>
 
-            <p>"That would be impossible, my dear boy."</p>
+            <div>
+                <p>"I want you and Basil to come with me some night and see her act. I have not the slightest fear of
+                    the
+                    result. You are certain to acknowledge her genius. Then we must get her out of the Jew's hands. She
+                    is
+                    bound to him for three years--at least for two years and eight months--from the present time. I
+                    shall
+                    have to pay him something, of course. When all that is settled, I shall take a West End theatre and
+                    bring her out properly. She will make the world as mad as she has made me."</p>
 
-            <p>"Yes, she will. She has not merely art, consummate art-instinct, in her, but she has personality also;
-                and you have often told me that it is personalities, not principles, that move the age."</p>
+                <p>"That would be impossible, my dear boy."</p>
 
-            <p>"Well, what night shall we go?"</p>
+                <p>"Yes, she will. She has not merely art, consummate art-instinct, in her, but she has personality
+                    also;
+                    and you have often told me that it is personalities, not principles, that move the age."</p>
 
-            <p>"Let me see. To-day is Tuesday. Let us fix to-morrow. She plays Juliet to-morrow."</p>
+                <p>"Well, what night shall we go?"</p>
 
-            <p>"All right. The Bristol at eight o'clock; and I will get Basil."</p>
+                <p>"Let me see. To-day is Tuesday. Let us fix to-morrow. She plays Juliet to-morrow."</p>
 
-            <p>"Not eight, Harry, please. Half-past six. We must be there before the curtain rises. You must see her in
-                the first act, where she meets Romeo."</p>
+                <p>"All right. The Bristol at eight o'clock; and I will get Basil."</p>
 
-            <p>"Half-past six! What an hour! It will be like having a meat-tea, or reading an English novel. It must be
-                seven. No gentleman dines before seven. Shall you see Basil between this and then? Or shall I write to
-                him?"</p>
+                <p>"Not eight, Harry, please. Half-past six. We must be there before the curtain rises. You must see her
+                    in
+                    the first act, where she meets Romeo."</p>
 
-            <p>"Dear Basil! I have not laid eyes on him for a week. It is rather horrid of me, as he has sent me my
-                portrait in the most wonderful frame, specially designed by himself, and, though I am a little jealous
-                of the picture for being a whole month younger than I am, I must admit that I delight in it. Perhaps you
-                had better write to him. I don't want to see him alone. He says things that annoy me. He gives me good
-                advice."</p>
+                <p>"Half-past six! What an hour! It will be like having a meat-tea, or reading an English novel. It must
+                    be
+                    seven. No gentleman dines before seven. Shall you see Basil between this and then? Or shall I write
+                    to
+                    him?"</p>
 
-            <p>Lord Henry smiled. "People are very fond of giving away what they need most themselves. It is what I call
-                the depth of generosity."</p>
+                <p>"Dear Basil! I have not laid eyes on him for a week. It is rather horrid of me, as he has sent me my
+                    portrait in the most wonderful frame, specially designed by himself, and, though I am a little
+                    jealous
+                    of the picture for being a whole month younger than I am, I must admit that I delight in it. Perhaps
+                    you
+                    had better write to him. I don't want to see him alone. He says things that annoy me. He gives me
+                    good
+                    advice."</p>
 
-            <p>"Oh, Basil is the best of fellows, but he seems to me to be just a bit of a Philistine. Since I have
-                known you, Harry, I have discovered that."</p>
+                <p>Lord Henry smiled. "People are very fond of giving away what they need most themselves. It is what I
+                    call
+                    the depth of generosity."</p>
 
-            <p>"Basil, my dear boy, puts everything that is charming in him into his work. The consequence is that he
-                has nothing left for life but his prejudices, his principles, and his common sense. The only artists I
-                have ever known who are personally delightful are bad artists. Good artists exist simply in what they
-                make, and consequently are perfectly uninteresting in what they are. A great poet, a really great poet,
-                is the most unpoetical of all creatures. But inferior poets are absolutely fascinating. The worse their
-                rhymes are, the more picturesque they look. The mere fact of having published a book of second-rate
-                sonnets makes a man quite irresistible. He lives the poetry that he cannot write. The others write the
-                poetry that they dare not realize."</p>
-        </div>
+                <p>"Oh, Basil is the best of fellows, but he seems to me to be just a bit of a Philistine. Since I have
+                    known you, Harry, I have discovered that."</p>
 
-    </article>
+                <p>"Basil, my dear boy, puts everything that is charming in him into his work. The consequence is that
+                    he
+                    has nothing left for life but his prejudices, his principles, and his common sense. The only artists
+                    I
+                    have ever known who are personally delightful are bad artists. Good artists exist simply in what
+                    they
+                    make, and consequently are perfectly uninteresting in what they are. A great poet, a really great
+                    poet,
+                    is the most unpoetical of all creatures. But inferior poets are absolutely fascinating. The worse
+                    their
+                    rhymes are, the more picturesque they look. The mere fact of having published a book of second-rate
+                    sonnets makes a man quite irresistible. He lives the poetry that he cannot write. The others write
+                    the
+                    poetry that they dare not realize."</p>
+            </div>
 
-    <section id="contact">
+        </article>
 
-        <h2>Contact Me!</h2>
+        <section id="contact">
 
-        <form method="post" data-netlify="true">
+            <h2>Contact Me!</h2>
 
-           <fieldset>
+            <form method="post" data-netlify="true">
 
-            <legend>Contact Form</legend>
+                <fieldset>
 
-            <label for="name">Your Name</label>
-                <input id="name" name="name" type="text" placeholder="Enter name" required>
+                    <legend>Contact Form</legend>
 
-            <br>
+                    <label for="name">Your Name</label>
+                    <input id="name" name="name" type="text" placeholder="Enter name" required>
 
-                <label for="email">Your Email</label>
-            <input id="email" name="email" type="email" placeholder="Enter email address" required>
+                    <br>
 
-            <br>
+                    <label for="email">Your Email</label>
+                    <input id="email" name="email" type="email" placeholder="Enter email address" required>
 
-            <label for="phone">Your Phone #</label>
-            <input id="phone" name="phone" type="tel" placeholder="Enter phone number" required>
+                    <br>
 
-            <br>
+                    <label for="phone">Your Phone #</label>
+                    <input id="phone" name="phone" type="tel" placeholder="Enter phone number" required>
 
-            <label for="type">Phone Type</label>
-            <select id="type">
+                    <br>
 
-                <option value="Home">Home</option>
-                <option value="Cell">Cell</option>
-                <option value="Work">Work</option>
-            </select>
+                    <label for="type">Phone Type</label>
+                    <select id="type">
 
-            <br>
+                        <option value="Home">Home</option>
+                        <option value="Cell">Cell</option>
+                        <option value="Work">Work</option>
+                    </select>
 
-            <label for="message">Your Message:</label>
-            <textarea id="message" name="message"></textarea>
+                    <br>
 
-            <br>
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message"></textarea>
 
-            <fieldset>
-                <legend>Contact Back?</legend>
-            <input id="yes" name="contactback" type="radio" checked="true" value="yes">
-            <label for="yes">Contact Me Back!</label>
-            <br>
-            <input id="no" name="contactback" type="radio" value="no">
-            <label for="yes">No Thanks Bro!</label>
+                    <br>
 
-            </fieldset>
-            <br>
+                    <fieldset>
+                        <legend>Contact Back?</legend>
+                        <input id="yes" name="contactback" type="radio" checked="true" value="yes">
+                        <label for="yes">Contact Me Back!</label>
+                        <br>
+                        <input id="no" name="contactback" type="radio" value="no">
+                        <label for="yes">No Thanks Bro!</label>
 
-            <input type="submit">
+                    </fieldset>
+                    <br>
 
-           </fieldset>
+                    <input type="submit">
+
+                </fieldset>
 
 
-        </form>
+            </form>
 
-    </section>
+        </section>
 
     </main>
 

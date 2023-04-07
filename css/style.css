@@ -21,7 +21,7 @@ h2 {
 }
 
 /* Image of cartoon student */
-#enthusiaticstudent {
+.enthusiaticstudent {
 
 padding: 20px;
 border:4px solid #0AA8F5;
@@ -38,15 +38,17 @@ text-align: center;
 header {
 
 text-align: center;
+width: 100px;
+height: 100px;
 
 }
 
 /*Photo gallery*/
 #photos {
 
-border: #ffffff;
-max-width: 100%;
-max-height: 50px;
+border: dotted black;
+background-color: white
+
 
 }
 
@@ -54,6 +56,7 @@ max-height: 50px;
 
     text-align: center;
     background-color: black;
+    padding: 1rem;
     
     }
 
