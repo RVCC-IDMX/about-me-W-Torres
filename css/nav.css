@@ -17,26 +17,42 @@ main {
 /* navbar */
 
 .navbar {
-    border: solid white;
+    border: solid rgb(219, 179, 92);
+    background-color: rgb(48, 48, 48);
+    color:rgb(219, 179, 92);
     display: flex;
-    align-content: center;
-    flex-direction: column;
+    flex-direction: row;
     margin-bottom: 1rem;
 }
 
 /* logo */
 
-.log img {
+.logo {
     display: flex;
-    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.logo-title {
+
+    border: solid rgb(254, 214, 129);
+    background-color:rgb(48, 48, 48);
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+
 }
 
 /* navigation list */
 
 .navbar-links li {
 
+    border: solid black;
+    background-color: rgb(48, 48, 48);
     list-style: none;
-    padding: 1rem 5px;
+    padding: 1rem 2.5px;
+    display: flex;
+    
 
 }
 
@@ -58,7 +74,7 @@ main {
 
 .navbar-links a:hover {
 
-background-color: aqua;
+color:rgb(219, 179, 92);
 
 }
 

@@ -1,43 +1,43 @@
 body {
 
-    background-color: black ;
+    background-color: rgb(255, 221, 111);
     font-family: 'Fira Sans', sans-serif;
-    color:#B1DEFA;
+    color: white;
 
 }
 
 h1 {
 
 text-align: center;
-color: #B1DEFA;
 
 }
 
 h2 {
 
+    text-align: center;
     font-family: 'Fira Sans', sans-serif;
     font-size: 20px;
     color: #B1DEFA;
 }
 
 /* Image of cartoon student */
-.enthusiaticstudent {
+#enthusiaticstudent {
 
-padding: 20px;
-border:4px solid #0AA8F5;
+text-align: center;
 max-width: 50%;
+max-height: 50%;
 
 }
 
 #biography div {
 
 text-align: center;
+background-color: rgb(48, 48, 48);
 
 }
 
 header {
 
-text-align: center;
 width: 100px;
 height: 100px;
 
@@ -52,12 +52,39 @@ background-color: white
 
 }
 
-#photos figcaption {
+.comiccon {
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+    height: 450px;
 
+}
+
+.sketch {
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+    height: 450px;
+
+}
+
+.ps4 {
+    display: flex;
+    flex-direction: row;
+    width: 550px;
+    height: 550px;
+
+}
+
+#photos figcaption {
+    
+    display: flex;
+    flex-wrap: nowrap;
     text-align: center;
     background-color: black;
     padding: 1rem;
-    
+    border: dotted white;
+
     }
 
 /*Likes and Hobbies*/
