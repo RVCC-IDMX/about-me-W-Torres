@@ -10,16 +10,17 @@ The general purpose of the About Me project is to gradually design a website tha
 
 ## Color Schemes/Templates
 
---- Text colors
+--- Text colors Screenshots
 
 Text:
 
-
+!{Screenshot of color swab for all content found in website}()
 
 Blocks + Borders:
 
+!{Screenshot of color swab for all content found in website}(img/)
 
-
+Body Color: rgb (255, 221, 111)
 
 ## Citations
 
