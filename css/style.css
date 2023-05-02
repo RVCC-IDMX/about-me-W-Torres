@@ -41,7 +41,7 @@ text-align: center;
 
 max-width: 50%;
 max-height: 50%;
-margin-top: 1em;
+margin-top: 3em;
 border: solid rgb(255, 221, 111);
 background-color:rgb(109, 96, 53);
 border-radius: 1000px;
@@ -61,7 +61,7 @@ margin-right: auto;
 margin-bottom: 2rem;
 padding-right: 15px;
 padding-left: 15px;
-font-size: large;
+font-size: larger;
 
 }
 
@@ -277,16 +277,39 @@ footer {
 
 @media screen and (max-width: 760px) {
 
-#photos figure {
+#photos {
 
-display: grid;
-grid-template-columns: 2fr 1fr;
+max-width: 100%;
+columns: 30rem;
+text-align: justify;
+width: 450px;
+
+}
+
+.comiccon {
+
+    width: 250px;
+    height: 350px;
+
+}
+
+.sketch {
+    
+    width: 250px;
+    height: 350px;
+
+}
+
+.ps4 {
+    
+    width: 225px;
+    height: 400px;
 
 }
 
 #video iframe {
 
-    text-align:center;
+    text-align: center;
     height: fit-content;
     width: fit-content;
 }
@@ -309,18 +332,56 @@ text-align: justify;
 
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {    
 
-#photos {
+#biography {
 
-display: grid;
+margin-top: 25em;  
 
 }
 
-#video iframe{
+#video iframe {
 
     text-align: center;
-    height: 210;
-    width: 450;
+    height: fit-content;
+    width: fit-content;
     }
+}
+
+@media screen and (max-width: 380px) {  
+
+#video iframe {
+
+width: 70%;
+height: 70%;
+
+}
+
+#biography {
+
+margin-top: 25em;
+
+}
+
+.comiccon {
+
+        width: 125px;
+        height: 250px;
+    
+}
+    
+.sketch {
+        
+        width: 125px;
+        height: 250px;
+    
+}
+    
+.ps4 {
+        
+        width: 140px;
+        height: 200px;
+    
+}
+
 }

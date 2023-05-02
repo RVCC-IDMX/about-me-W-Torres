@@ -14,8 +14,8 @@ main {
 /* add some padding back to rest of page */
 
 body {
-    padding:0px;
-    margin:0px;
+    padding: 0px;
+    margin: 0px;
 }
 
 /* navbar */
@@ -23,19 +23,19 @@ body {
 .navbar {
     border: solid black;
     background-color: rgb(48, 48, 48);
-    color:rgb(219, 179, 92);
+    color: rgb(219, 179, 92);
     display: flex;
     flex-direction: column;
     margin-bottom: 1rem;
     width: 100vw;
-    margin:0px;
+    margin: 0px;
 }
 
 .logo h1 {
 
-color: rgb(105, 180, 255);
-font-weight: bolder;
-font-style: italic;
+    color: rgb(105, 180, 255);
+    font-weight: bolder;
+    font-style: italic;
 
 }
 
@@ -50,7 +50,7 @@ font-style: italic;
 .logo-title {
 
     border: solid rgb(254, 214, 129);
-    background-color:rgb(48, 48, 48);
+    background-color: rgb(48, 48, 48);
     padding: 15px;
     display: flex;
     flex-direction: row;
@@ -67,7 +67,7 @@ font-style: italic;
     list-style: none;
     padding: 1rem 2.5px;
     display: flex;
-    
+
 
 }
 
@@ -89,7 +89,7 @@ font-style: italic;
 
 .navbar-links a:hover {
 
-color:rgb(255, 200, 81);
+    color: rgb(255, 200, 81);
 
 }
 
@@ -101,16 +101,67 @@ such that no text wraps
 
 @media screen and (min-width:1000px) {
 
-.navbar {
+    .navbar {
 
-flex-direction: row;
+        flex-direction: row;
+
+    }
+
+    .navbar ul {
+
+        display: flex;
+
+    }
 
 }
 
-.navbar ul {
+@media screen and (max-width:400px) {
 
-display: flex;
+    .hamburger {
 
-}
+        display: block;
+        cursor: pointer;
+
+    }
+
+    .hamburger .ul {
+
+        padding: 0;
+
+    }
+
+    .hamburger .line {
+
+        width: 30px;
+        height: 3px;
+        background-color: #ffffff;
+        margin: 12px 0;
+
+    }
+
+    header {
+        margin-bottom:100px;
+    }
+
+    .navbar-links {
+
+        /*display: 75%;
+        
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        */
+    }
+
+    .navbar ul {
+        padding:0px;
+        /*
+        display: block;
+        width: fit-content;
+        margin: 80px auto 0 auto;
+        */
+    }
 
 }
