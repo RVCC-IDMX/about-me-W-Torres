@@ -29,10 +29,11 @@ Navigation Bar is modified to rearrange into a column format upon reaching a max
 ## Citations
 
 Linked video: (https://www.youtube.com/watch?v=XL5Cn8YrEkk&t=1s)
-Blog Resources:(https://wpdatatables.com/css-image-hover-effects/)
-               (https://blog.hubspot.com/website/css-hover-animation)
-               (https://www.lambdatest.com/blog/css-hover-effects/)
+Blog Resources:
+(https://wpdatatables.com/css-image-hover-effects/)
+(https://blog.hubspot.com/website/css-hover-animation)
+(https://www.lambdatest.com/blog/css-hover-effects/)
 
 ## Licensing
 
-I reserve 
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.

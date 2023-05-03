@@ -93,6 +93,23 @@ body {
 
 }
 
+/*Hamburger menu*/
+
+input[type=checkbox] {
+    display: none;
+    } 
+    
+    
+    .hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+    }
+
+    input[type=checkbox]:checked ~ .navbar-links {
+        display: none;
+        }
+
 /* 
 media query for non-mobile nav bar
 min-width set to width of nav elements 
@@ -114,7 +131,7 @@ such that no text wraps
     }
 
 }
-
+/*Reveal Hamburger Icon*/
 @media screen and (max-width:400px) {
 
     .hamburger {
@@ -143,25 +160,8 @@ such that no text wraps
         margin-bottom:100px;
     }
 
-    .navbar-links {
-
-        /*display: 75%;
-        
-        position: absolute;
-        top: 80px;
-        left: 0;
-        right: 0;
-        width: 100vw;
-        */
-    }
-
     .navbar ul {
         padding:0px;
-        /*
-        display: block;
-        width: fit-content;
-        margin: 80px auto 0 auto;
-        */
     }
 
 }

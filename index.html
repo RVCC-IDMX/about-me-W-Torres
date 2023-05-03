@@ -22,18 +22,16 @@
 
     <header>
         <!-- the HEADER represents a piece of content that helps a visitor
-            navigate the webpage through navigational aids -->       
+            navigate the webpage through navigational aids -->
         <nav class="navbar">
-            
+
             <div class="logo">
                 <img src="img/WT.svg" alt="Navbar Initials">
                 <h1>Web Dev 1 - About Me</h1>
             </div>
-            <div class="hamburger">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
-            </div>
+            <!--code for hamburger menu-->
+            <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
             <div class="navbar-links">
                 <ul>
                     <li><a class="nav-links" href="#contact">Contact Me</a></li>
@@ -60,7 +58,7 @@
             <div>
 
                 <p> Currently enrolled in Raritan Valley Community College </p>
-                <p> North Plainfield, New Jersey </p>
+                <p> Located in Branchburg, New Jersey </p>
 
             </div>
 
@@ -129,6 +127,8 @@
 
         </section>
 
+        <h1>Here's a cool 15-second ambient Timelapse video</h1>
+
         <section id="video">
 
             <iframe width="650" height="410" src="https://www.youtube.com/embed/XL5Cn8YrEkk"
@@ -139,72 +139,54 @@
 
         </section>
 
-        <h1> The Picture of Dorian Gray </h1>
-
+        <h1> Cascading Style Sheets: Hover States </h1>
+        
         <article id="lit">
 
             <div>
-                <p>"I want you and Basil to come with me some night and see her act. I have not the slightest fear of
-                    the
-                    result. You are certain to acknowledge her genius. Then we must get her out of the Jew's hands. She
-                    is
-                    bound to him for three years--at least for two years and eight months--from the present time. I
-                    shall
-                    have to pay him something, of course. When all that is settled, I shall take a West End theatre and
-                    bring her out properly. She will make the world as mad as she has made me."</p>
+                <p>For those experienced with coding in CSS or Cascading Style Sheets, programmers can insert various
+                    types of hover effects into their CSS stylesheets to allow for more in-depth personalization of any
+                    inert text in a website and improves general engagement for users of a website. These types of
+                    effects include, but are not limited to, changing the colors of the targeted text blocks and
+                    characters as well as modifying the font size of the text itself. There is a lot of potential in
+                    utilizing CSS hover effects for everyone, but it is important to know how to properly implement it
+                    in a user's stylesheet(s).</p>
 
-                <p>"That would be impossible, my dear boy."</p>
+                <p>The first step in setting up an image hover effect within an HTML document is to identify which
+                    element you want to apply these effects to using CSS selectors such as “p” for individual paragraph
+                    elements in a document or a unique element such as “.wire” which would target an element under the
+                    specified class.</p>
 
-                <p>"Yes, she will. She has not merely art, consummate art-instinct, in her, but she has personality
-                    also;
-                    and you have often told me that it is personalities, not principles, that move the age."</p>
+                <p>Next, a user should determine the CSS styles you want to implement for the chosen elements.
+                    Applicable style selectors include borders, border colors, font size, text and background colors,
+                    and other additional style settings. It is up to the user to determine the style setting combination
+                    for their elements in order to reach their desired effects.
+                </p>
 
-                <p>"Well, what night shall we go?"</p>
+                <p>Finally, in order to set the style changes to appear when the cursor is hovering over the selected
+                    elements, you will need to insert a “:hover” pseudo-class in your CSS stylesheet. Doing so will tell
+                    the code to only apply the style effects requested whenever a computer’s cursor is set on top of the
+                    targeted element. The size of the element is also taken into account when determining the area being
+                    affected by the hover state pseudo-element.
+                </p>
 
-                <p>"Let me see. To-day is Tuesday. Let us fix to-morrow. She plays Juliet to-morrow."</p>
+                <p>Some ideal uses for effectively inserting hover states include highlighting crucial navigation links,
+                    giving text and other content unique personalities, and drawing attention to images included in
+                    websites. It is important to know the best possible way to effectively style your hover states in
+                    these scenarios so that the content affected is still viewable to its readers and viewers.
+                </p>
 
-                <p>"All right. The Bristol at eight o'clock; and I will get Basil."</p>
+                <p> There are a variety of effects you can create that aren’t just related to modifying colors and sizes
+                    of elements. One of the effects you can do include creating a bouncing effect within the website.
+                    This type of effect utilizes “animation” properties to determine the length, delay, and number of
+                    iterations of the desired effect or if the effect is looped infinitely.
+                </p>
 
-                <p>"Not eight, Harry, please. Half-past six. We must be there before the curtain rises. You must see her
-                    in
-                    the first act, where she meets Romeo."</p>
-
-                <p>"Half-past six! What an hour! It will be like having a meat-tea, or reading an English novel. It must
-                    be
-                    seven. No gentleman dines before seven. Shall you see Basil between this and then? Or shall I write
-                    to
-                    him?"</p>
-
-                <p>"Dear Basil! I have not laid eyes on him for a week. It is rather horrid of me, as he has sent me my
-                    portrait in the most wonderful frame, specially designed by himself, and, though I am a little
-                    jealous
-                    of the picture for being a whole month younger than I am, I must admit that I delight in it. Perhaps
-                    you
-                    had better write to him. I don't want to see him alone. He says things that annoy me. He gives me
-                    good
-                    advice."</p>
-
-                <p>Lord Henry smiled. "People are very fond of giving away what they need most themselves. It is what I
-                    call
-                    the depth of generosity."</p>
-
-                <p>"Oh, Basil is the best of fellows, but he seems to me to be just a bit of a Philistine. Since I have
-                    known you, Harry, I have discovered that."</p>
-
-                <p>"Basil, my dear boy, puts everything that is charming in him into his work. The consequence is that
-                    he
-                    has nothing left for life but his prejudices, his principles, and his common sense. The only artists
-                    I
-                    have ever known who are personally delightful are bad artists. Good artists exist simply in what
-                    they
-                    make, and consequently are perfectly uninteresting in what they are. A great poet, a really great
-                    poet,
-                    is the most unpoetical of all creatures. But inferior poets are absolutely fascinating. The worse
-                    their
-                    rhymes are, the more picturesque they look. The mere fact of having published a book of second-rate
-                    sonnets makes a man quite irresistible. He lives the poetry that he cannot write. The others write
-                    the
-                    poetry that they dare not realize."</p>
+                <p>When implemented properly, the CSS hover states can breathe fresh life into a person’s website and
+                    keep users engaged as they browse through the site’s contents. There are a ton more effects that can
+                    be created which could be of use to a person’s development for their own sites, so I encourage you
+                    to experiment with the many properties you can implement in CSS to see what type of effects you can
+                    create.</p>
             </div>
 
         </article>
@@ -274,7 +256,7 @@
     <footer>
 
         &copy; Willard Torres II 2023
-
+        <a href="https://github.com/RVCC-IDMX/about-me-W-Torres" class="github-link" target="_blank">My GitHub Repository</a>
     </footer>
 
 </body>

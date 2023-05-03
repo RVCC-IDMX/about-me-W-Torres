@@ -29,7 +29,7 @@ h2 {
 
 }
 
-/* Image of cartoon student */
+/*Image of cartoon student (Me)*/
 
 #biography {
 
@@ -113,17 +113,18 @@ text-align: center;
 
 }
 
-#photos figcaption {
+figcaption {
     
     display: flex;
     text-align: center;
-    background-color: black;
-    max-width: 400px;
+    background-color: rgb(48, 48, 48);
+    color:rgb(255, 232, 156);
+    max-width: 300px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 4rem;
     padding: 15px;
-    border: dotted white;
+    border: solid black;
 
     }
 
@@ -274,6 +275,30 @@ footer {
     width:100vw;
     margin:0px;
 }
+/*Github Link*/
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color:lightblue;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color:lightgreen;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
 
 @media screen and (max-width: 760px) {
 
